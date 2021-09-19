@@ -45,16 +45,14 @@ h1{
 {
     margin: 5% 3% 5% 0;
 }
-.dog-img_container
+.dog-img_con
 {
-    text-align: center;
-    margin-top: 1.5rem;
+    text-align: center;   
 }
 .img-rotate
 {
-    width: 60%;
+    width: 45%;
     transform: rotate(15deg);
-    
 }
 #features h3
 {
@@ -130,4 +128,44 @@ h1{
 {
     text-align: center;
     margin-top: 2rem;
+}
+#love-dog
+{
+    background-color:#ff4c68;
+    padding: 1rem 10%;
+}
+.love-text
+{
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'Montserrat';
+}
+#footer
+{
+    background-color: white;
+    padding: 4rem 10%;
+    text-align: center;
+}
+.footer-icon
+{
+    color: black;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+ 
+h4
+{
+    font-size: 0.6rem;
+    margin-right: 1rem;
+}
+@media (max-width:990px) {
+    #main
+    {
+        text-align: center;
+    }
+ 
+   .img-rotate
+   {
+       transform: rotate(0);
+   }
 }

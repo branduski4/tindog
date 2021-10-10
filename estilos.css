@@ -53,6 +53,7 @@ h1 {
 .img-rotate {
     width: 45%;
     transform: rotate(15deg);
+    padding: 20px;
 }
 
 #features h3 {
@@ -90,7 +91,6 @@ h1 {
 
     text-align: center;
     background-color: #ff4c68;
-
     color: white;
 
 }
@@ -98,7 +98,6 @@ h1 {
 #testimonials h2 {
     line-height: 1.5;
     margin-bottom: 2rem;
-
 }
 
 .testimonial-img {
@@ -109,7 +108,7 @@ h1 {
 }
 
 .carousel-item {
-    padding: 4rem 10%;
+    padding: 1rem 10%;
 }
 
 .card-group {
@@ -156,6 +155,10 @@ h1 {
 h4 {
     font-size: 0.6rem;
     margin-right: 1rem;
+}
+.col-lg-3
+{
+    margin-right: 10px;
 }
 
 @media (max-width:990px) {
